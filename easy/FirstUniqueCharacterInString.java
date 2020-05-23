@@ -13,7 +13,7 @@ Time Complexity : O(2n) = O(n) - Linear, Acceptable by Orgs
 */
 
 
-class Solution {
+class FirstUniqueCharacterInString {
     public int firstUniqChar(String s) {
         
     HashMap<Character, Integer> map= new HashMap<Character, Integer>();
