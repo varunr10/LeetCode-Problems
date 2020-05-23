@@ -8,11 +8,12 @@
 *     return [0, 1].
 *
 *   Solution : 1. Brute Force approach - For every element, loop through the Array and check if there is target - element
-                  Time Complexity is O(n^2)
-               2. Two Pass Hash Table approach - For every element, check if complement exists in Hashtable. If not add the element into hashtable and move to the next elements.
-                  Time Complexity is O(n)
-                  Space Complexity is O(n) since we are using HashTable space for storing the elements from the Array
-class Solution {
+*                  Time Complexity is O(n^2)
+*               2. Two Pass Hash Table approach - For every element, check if complement exists in Hashtable. If not add the element into hashtable and move to the next elements.
+*                 Time Complexity is O(n)
+*                 Space Complexity is O(n) since we are using HashTable space for storing the elements from the Array
+*/
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hMap = new HashMap<Integer, Integer>();
         
