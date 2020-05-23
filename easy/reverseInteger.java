@@ -23,7 +23,7 @@ Time Complexity: O(log(x))
 
 */
 
-class Solution {
+class ReverseInteger {
    public int reverse(int x) {   
 	        int num;
 	        int newNum = 0;
