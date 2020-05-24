@@ -43,6 +43,8 @@ class MergeTwoSortedLinkedLists {
             
             curr = curr.next;
       }      
+      
+      //For the edge cases, if one list has elements left while other list is done traversing and added to the output list
             if(l1 != null){
                 curr.next = l1;
                 l1 = l1.next;
