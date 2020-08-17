@@ -2,7 +2,7 @@
 //Example
 //    s = "leetcode"          s = "loveleetcode",       s="pogba"
 //      return 0.                return 2.              return -1.
-asfa
+
 /* 
 Brute Force : For every char in string, loop through other chars and check if it is non repeated.
 Time Complexity = O(n^2) - Quadratic, Very inefficient
