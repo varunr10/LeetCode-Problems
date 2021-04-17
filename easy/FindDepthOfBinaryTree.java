@@ -20,6 +20,18 @@ public class FindDepthOfBinaryTree {
 		TreeNode twenty = new TreeNode(20,fifteen,seven);
 		TreeNode three = new TreeNode(3,nine,twenty);
 		
+		//Alternative way of TreeNode creation
+// 		TreeNode nine = new TreeNode(9);
+// 		TreeNode fifteen = new TreeNode(15);
+// 		TreeNode seven = new TreeNode(7);
+// 		TreeNode twenty = new TreeNode(20);
+// 		TreeNode three = new TreeNode(3);
+		
+// 		three.left = nine;
+// 		three.left = twenty;
+// 		twenty.left = fifteen;
+// 		twenty.right = seven;
+		
 		System.out.println(findDepth(three));
 	}
 }
