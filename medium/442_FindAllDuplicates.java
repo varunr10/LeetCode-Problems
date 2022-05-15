@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.ArrayList;
 import java.util.List;
-//Negative Marking to find duplicates and find missing in a range of elements in array
+//Negative Mark the element at the index of visited elements. When you come across a element's index that is already negative, then it means it is duplicate
 public class FindTheDuplicateNumbers {
 	public static List<Integer> findDuplicates(int[] nums) {
 
