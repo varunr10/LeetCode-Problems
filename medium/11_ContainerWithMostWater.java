@@ -1,6 +1,5 @@
 /*Leetcode problem 11: Container with Most water 
 Topic: Arrays, Two pointer
-
 https://leetcode.com/problems/container-with-most-water/
 
 */
