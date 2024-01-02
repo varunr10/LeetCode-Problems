@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class DeompressList {
 
 	public static int[] decompress(int[] nums) {
